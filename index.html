@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcoSkill</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🌍 EcoSkill</h1>
+    <p>Empowering a Smarter and Greener India</p>
+  </header>
+
+  <main>
+    <!-- EcoTrack Module -->
+    <section id="eco">
+      <h2>🌱 EcoTrack</h2>
+      <div id="habit-list" class="card-container eco-card"></div>
+      <button id="calc-score">Check Eco Score</button>
+
+      <div id="eco-progress-container">
+        <div id="eco-progress"></div>
+      </div>
+
+      <p id="eco-score"></p>
+      <p id="eco-tip"></p>
+    </section>
+
+    <!-- SkillScope Module -->
+    <section id="skill">
+      <h2>💼 SkillScope</h2>
+      <p>Choose your interest:</p>
+      <select id="interest">
+        <option value="">Select...</option>
+        <option value="tech">Technology</option>
+        <option value="art">Art & Design</option>
+        <option value="help">Helping People</option>
+        <option value="business">Business & Management</option>
+        <option value="science">Science & Research</option>
+        <option value="sports">Sports & Fitness</option>
+      </select>
+      <button id="find-skill">Find Paths</button>
+      <div id="result" class="card-container skill-card"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

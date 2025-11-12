@@ -1,0 +1,147 @@
+/* Body & Header */
+body {
+  background: #F5F7FA;
+  color: #333;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+header h1 {
+  color: #1E88E5;
+  font-size: 2.5rem;
+  margin-bottom: 5px;
+}
+
+header p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Buttons */
+button {
+  background: #1E88E5;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-weight: 500;
+  transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background: #1565C0;
+  transform: translateY(-2px);
+}
+
+/* Select Box */
+#interest {
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  width: 220px;
+  margin-top: 10px;
+  transition: border 0.3s, box-shadow 0.3s;
+}
+
+#interest:hover {
+  border-color: #1E88E5;
+  box-shadow: 0 0 5px rgba(30,136,229,0.5);
+}
+
+/* Card Containers */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 15px;
+}
+
+/* EcoTrack Cards */
+.eco-card label {
+  background: #fff;
+  padding: 14px 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  cursor: pointer;
+  transition: transform 0.2s, background 0.2s;
+  min-width: 200px;
+  font-weight: 500;
+}
+
+.eco-card label:hover {
+  transform: scale(1.05);
+  background: #E3F2FD;
+}
+
+/* SkillScope Cards / Links */
+.skill-card a {
+  display: block;
+  background: #fff;
+  padding: 14px 20px;
+  border-radius: 12px;
+  text-decoration: none;
+  color: #1E88E5;
+  font-weight: 500;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  transition: transform 0.2s, background 0.2s;
+  min-width: 200px;
+  margin-bottom: 8px;
+}
+
+.skill-card a:hover {
+  transform: scale(1.03);
+  background: #E3F2FD;
+}
+
+/* Eco Progress Bar */
+#eco-progress-container {
+  background: #ddd;
+  border-radius: 12px;
+  height: 25px;
+  width: 90%;
+  margin: 15px auto;
+}
+
+#eco-progress {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, #43A047, #66BB6A);
+  border-radius: 12px;
+  transition: width 1s ease-in-out;
+}
+
+/* Eco Tip */
+#eco-tip {
+  color: #FDD835;
+  font-style: italic;
+  margin-top: 5px;
+}
+
+/* Section Styling */
+section {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+  margin: 20px auto;
+  max-width: 600px;
+  padding: 25px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .card-container { flex-direction: column; align-items: center; }
+  section { margin: 15px; padding: 20px; }
+  #interest { width: 90%; }
+}

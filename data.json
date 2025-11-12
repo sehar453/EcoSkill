@@ -1,0 +1,32 @@
+{
+  "tech": [
+    {"name": "Web Development", "link": "https://www.freecodecamp.org/"},
+    {"name": "AI & ML", "link": "https://www.coursera.org/"},
+    {"name": "Data Science", "link": "https://www.kaggle.com/learn"}
+  ],
+  "art": [
+    {"name": "Graphic Design", "link": "https://www.canva.com/learn/design/"},
+    {"name": "Animation", "link": "https://www.khanacademy.org/"},
+    {"name": "UI/UX Design", "link": "https://www.interaction-design.org/"}
+  ],
+  "help": [
+    {"name": "Teaching", "link": "https://www.khanacademy.org/"},
+    {"name": "Healthcare", "link": "https://www.who.int/"},
+    {"name": "Social Work", "link": "https://www.edx.org/"}
+  ],
+  "business": [
+    {"name": "Entrepreneurship", "link": "https://www.udemy.com/"},
+    {"name": "Management", "link": "https://www.coursera.org/"},
+    {"name": "Marketing", "link": "https://www.hubspot.com/resources"}
+  ],
+  "science": [
+    {"name": "Research", "link": "https://www.nature.com/"},
+    {"name": "Lab Sciences", "link": "https://www.edx.org/"},
+    {"name": "Environmental Studies", "link": "https://www.coursera.org/"}
+  ],
+  "sports": [
+    {"name": "Fitness Training", "link": "https://www.nsca.com/"},
+    {"name": "Sports Coaching", "link": "https://www.coachesinfo.com/"},
+    {"name": "Nutrition", "link": "https://www.nutrition.org/"}
+  ]
+}
